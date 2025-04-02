@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nike_shoe_store/pages/HomePage.dart';
+import 'package:nike_shoe_store/pages/ItemPage.dart';
 import 'package:nike_shoe_store/pages/LoginPage.dart';
 
 void main() => runApp(const MyApp());
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => LoginPage(),
         "homePage": (context) => HomePage(),
+        "itemPage": (context) => ItemPage(),
       },
     );
   }
