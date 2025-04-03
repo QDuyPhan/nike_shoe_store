@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nike_shoe_store/widgets/AllItemWidget.dart';
+import 'package:nike_shoe_store/widgets/HomeBottomNavBar.dart';
 import 'package:nike_shoe_store/widgets/RowItemsWidget.dart';
 
 class HomePage extends StatelessWidget {
@@ -104,6 +105,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: HomeBottomNavBar(),
     );
   }
 }
